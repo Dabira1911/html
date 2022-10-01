@@ -1,0 +1,39 @@
+body { background-color: rgb(0, 0, 0);
+     padding: 10;
+     color: rgba(255, 255, 255, 0.61);
+     font-size: larger;
+     box-sizing: border-box;
+    font: roboto;
+     }
+nav{display: inline;}
+.container{
+    text-align: center;
+    font-size: 3em;
+    padding: 7px;
+    border: 10cm;
+    
+}
+.container > div:nth-child(1){ 
+    background-color: rgba(226, 43, 156, 0.26);
+}
+.container > div:nth-child(2){ 
+    background-color: rgba(226, 101, 43, 0.418);
+}
+
+.container > div:nth-child(3){ 
+    background-color: rgba(137, 43, 226, 0.315);
+}
+.container > div:nth-child(4){ 
+background-color: rgba(128, 255, 0, 0.308);
+}
+.container > div:nth-child(5){ 
+background-color: darkred;
+}
+
+h1{
+   font-size: 3em;
+}
+h4{
+    font-size: 1.5em;
+}
+p {font-size: larger;}

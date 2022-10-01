@@ -3,73 +3,74 @@
    <head>
       <title> Dab's profile </title>
       <meta name="my world.com" author="Dabira">
-      <style>
-         body { background-color: rgba(0, 0, 0, 0.425);}
-      </style>
+      <link rel="stylesheet" href="./index1.css">
+
    </head>
    <body>
-      <header> 
-         <h1 style="font-size: 70%"> welcome to my world </h1>
-         <br>
-         <h4> Oluwadabira Adebayo </h4>
-         <div id="profile">
-            <img src="me 1.jpg" width="10%" height="10%">
-            <br>    
-            <p> your average girl being an enigma </p>
-         </div>  
-      </header>
-      
-      <main>
-         <section id="posts">
-            <h1> Memories</h1>
-            <video src="./res/videos/fav hairstyle.mp4" controls width="20%" height="30%"></video>
-            <br>
-            <video src="./res/videos/having.mp4" controls width="20%" height="20%"> </video>
-            <video src="./res/videos/ho.mp4" controls width="20%" height="20%"></video> 
-            <br> <video src="./res/videos/fav video.mp4" controls width="20%" height="40%">  </video>
-            <video src="./res/videos/fun.mp4" controls width="20%" height="20%"> </video>
-            <img src="./res/images/me 1.jpg width="20%" height="20%">
-            <img src="./res/images/Child.jpg" width="20%" height="20%">
-            <img src="./res/images/my friends.jpg" controls height="70%" width="40%">
-         </section>
-         <br>
-
-         <br>
-        <div id="songs"> <b> my playlist </b>
-            <br>
-            <br>
-            <audio src="./res/audio/example 3.mp3" controls> </audio> 
-            <p>this is one of my favourite songs </p> 
-            
-         </div>
-         <hr>
-         <section>
-            <h2> About </h2>
-            I am in 300 level in Trinity University, Yaba.
-            <br> I am a gemini,born on the 6th of june 2005.
-            <br> i am studying Accounting but my heart is in computers
-         </section>
+     <header> 
+       <nav class="container">
+          <div class="profile">Profile</div>
+          <div class="posts"> Memories</div>
+          <div class="songs">My Playlist</div>
+          <div class="about"> About</div>
+          <div class="comment">Comment</div>
+       </nav>
          
-      </main>
-      <hr>
-      <footer >
-         <form >
-         <b>comment section</b>
-            <br>
-         <label for="comment" id="comment"> </label>
-         <input type="text" value="type your comment here">
-         <br> 
-         <br>
-         <input type="button" value="submit" >  <input type="button" value="reset">
-         </form>
-         <form>
-            do you like this page
-            <br>
-            yes <input type="checkbox"> 
-            no <input type="checkbox">
-         </form>
-      </footer>
-   
+         <div class="profile"></div>
+          <h1 "> welcome to my world </h1>
+          <h4> Oluwadabira Adebayo </h4>
+          <img src="./res/images/me 1.jpg" width="10%" height="10%"> 
+          <p> your average girl being an enigma </p>
+        </div>  
+    </header>
+       <main>
+            <section class="posts">
+             <h1> Memories</h1>
+             <div>
+                  <video src="./res/videos/fav hairstyle.mp4" controls width="20%" height="30%"></video>
+                  <br>
+                  <video src="./res/videos/having.mp4" controls width="20%" height="20%"> </video>
+                  <video src="./res/videos/ho.mp4" controls width="20%" height="20%"></video> 
+                  <br> <video src="./res/videos/fav video.mp4" controls width="20%" height="40%">  </video>
+                  <video src="./res/videos/fun.mp4" controls width="20%" height="20%"> </video>
+                  <img src="./res/images/me 1.jpg width="20%" height="20%">
+                  <img src="./res/images/Child.jpg" width="20%" height="20%">
+                  <img src="./res/images/my friends.jpg" controls height="70%" width="40%">
+               </div>
+            </section>
+       </main>  
+          <br>
+          <div class="songs"> <b> my playlist </b>
+               <audio src="./res/audio/example 3.mp3" controls> </audio> 
+               <p>this is one of my favourite songs </p>      
+            </div>
+            <hr>
+            <div class="about">
+               <h2> About </h2>
+               I am in 300 level in Trinity University, Yaba.
+               <br> I am a gemini,born on the 6th of june 2005.
+               <br> i am studying Accounting but my heart is in computers
+            </div>
+            
+         </main>
+         <hr>
+         <footer class="comment">
+            <form >
+               <b>comment section</b>
+               <br>
+               <label for="comment" id="comment"> </label>
+               <input type="text" value="type your comment here">
+               <br> 
+               <br>
+               <input type="button" value="submit" >  <input type="button" value="reset">
+            </form>
+            <form>
+               do you like this page
+               <br>
+               yes <input type="checkbox"> 
+               no <input type="checkbox">
+            </form>
+       </footer>
    </body>
     
 </html>
